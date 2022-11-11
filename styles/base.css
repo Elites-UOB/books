@@ -1,0 +1,19 @@
+:root {
+    --slidev-slide-container-background: #191919;
+    direction: rtl;
+}
+
+.dark .slidev-layout {
+    background-color: #191919;
+}
+
+
+.dark #slide-content {
+    background-color: #191919;
+}
+
+.slidev-layout li {
+    line-height: 1.8em;
+    margin-right: 1.1em;
+    padding-right: 0.2em;
+}
