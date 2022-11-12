@@ -63,7 +63,7 @@ html.dark {
 
 :not(pre) > code:before,
 :not(pre) > code:after {
-  content: '`';
+  /* content: '`'; */
   opacity: 0.50;
 }
 
