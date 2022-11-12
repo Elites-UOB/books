@@ -1,19 +1,24 @@
 :root {
-    --slidev-slide-container-background: #191919;
+    /* --slidev-slide-container-background: #ffffff; */
     direction: rtl;
 }
+ 
 
-.dark .slidev-layout {
-    background-color: #191919;
+.slidev-layout {
+    padding-top: 20mm;
+    padding-bottom: 25mm;
+    padding-right: 20mm;
+    padding-left: 20mm;
 }
 
-
-.dark #slide-content {
+/*
+#slide-content {
     background-color: #191919;
-}
+} */
 
 .slidev-layout li {
     line-height: 1.8em;
     margin-right: 1.1em;
     padding-right: 0.2em;
 }
+
