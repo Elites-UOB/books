@@ -1,7 +1,7 @@
 <template>
     <div class="slidev-layout" flex="~ col" justify="end" :style="`background: ${$slidev.nav.currentRoute.meta.themeConfig?.primary}`">
         <div flex="~ col gap-10" h="3xl">
-            <span text="4rem" :style="`color: ${$slidev.nav.currentRoute.meta.themeConfig?.textSecondary}`">
+            <span v-if="$slidev.nav.currentRoute.meta?.chapterNumber" text="4rem" :style="`color: ${$slidev.nav.currentRoute.meta.themeConfig?.textSecondary}`">
                 الفصل {{$slidev.nav.currentRoute.meta?.chapterNumber}}
             </span>
             <span text="10rem" font="bold">
